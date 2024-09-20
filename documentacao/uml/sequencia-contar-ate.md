@@ -1,10 +1,10 @@
 ```mermaid
 sequenceDiagram
     participant User as Usuário
-    participant SmartWatch as Smart Watch
-    participant UserInterface as Interface do Usuário
+    participant SmartWatch as SmartWatch
+    participant UserInterface as UserInterface
     participant Timer as Timer
-    participant CountdownTimer as Contador Regressivo
+    participant CountdownTimer as CountdownTimer
 
     User ->> SmartWatch: Swipe para a esquerda
     SmartWatch ->> UserInterface: Mostrar opções de contador
